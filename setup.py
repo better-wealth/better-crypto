@@ -38,11 +38,14 @@ if __name__ == "__main__":
     setup(
         name="better_crpyto",
         version=read_version(),
-        description="dydx",
+        description="Better crypto management tools.",
         platforms=["POSIX"],
         packages=find_packages(),
         package_data={"": ["config/*.*"]},
         include_package_data=True,
         install_requires=read_requirements("requirements/production.txt"),
         zip_safe=False,
+        entry_points={
+            "console_scripts": ["cli-name = better_crypto.better_crypto:bot"]
+        },
     )
