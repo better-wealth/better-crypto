@@ -2,6 +2,11 @@
 
 Better tools for managing crypto data.
 
+
+<!-- START doctoc -->
+<!-- END doctoc -->
+
+
 # Setup
 
 ```sh
