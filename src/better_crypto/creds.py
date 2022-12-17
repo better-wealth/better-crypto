@@ -1,0 +1,20 @@
+"""Locals confiurations."""
+HOST = "https://api.dydx.exchange"
+WEB3_HOST = "https://mainnet.infura.io/v3/"
+ETHEREUM_ADDRESS = "0x8908FdFF61aB545F83f1c95d2DF95181E03fEfC8"
+API_KEY_CREDENTIALS = {
+    "key": "bf0aeb49-ac45-7b2b-eb6f-d690dc848420",
+    "secret": "tX7LKFCTq9rkqPhjH9VE_NT5fwUm967W6qS9lkj4",
+    "passphrase": "FP_0l2u5VU_BEPQUJWVH",
+}
+STARK_PRIVATE_KEY = (
+    "03ff08bef2fff35491a7234e1c46bdb15b53f3314da4d2e397c0fad9262490e4"
+)
+STARK_PUBLIC_KEY = (
+    "028db07d5328f12a0ce10f9181584f62bb113e8b2a05a4cf65b34988665c3119"
+)
+
+QUOTATION_ASSET = "USD"
+BASE_ASSETS = ["ETH"]
+INFURA_API_KEY = "10a63fb0e30c4bd5bd3c8ad61c300e61"
+CANDLE_RESOLUTION = "15MINS"
