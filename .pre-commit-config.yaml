@@ -48,7 +48,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/pre-commit/mirrors-autopep8
-    rev: v2.0.0
+    rev: v2.0.1
     hooks:
       - id: autopep8
         args: [--in-place, --list-fixes, --recursive, --exclude="*.cfg"]
@@ -94,7 +94,7 @@ repos:
   # cython #
   ##########
   - repo: https://github.com/MarcoGorelli/cython-lint
-    rev: v0.9.1
+    rev: v0.10.0
     hooks:
       - id: cython-lint
       - id: double-quote-cython-strings
@@ -169,7 +169,7 @@ repos:
   # eslint #
   ##########
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: "v8.29.0" # Use the sha / tag you want to point at
+    rev: "v8.30.0" # Use the sha / tag you want to point at
     hooks:
       - id: eslint
         files: \.[jt]sx?$ # *.js, *.jsx, *.ts and *.tsx
@@ -371,7 +371,7 @@ repos:
         exclude: ^docs/|setup.py
 
   - repo: https://github.com/PyCQA/isort
-    rev: 5.11.2
+    rev: v5.11.3
     hooks:
       - id: isort
         args: [--float-to-top, --profile black]
